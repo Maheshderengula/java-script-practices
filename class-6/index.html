@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script src="./one.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h2>Convert Image to String</h2>
+        <form onsubmit="img2str(event)">
+            <label>Upload Image:</label>
+            <input type="file" required id="imgFile" />
+            <input type="submit" value="upload">
+        </form>
+        <textarea rows="4" cols="40" name="" id="taTag" onclick="str2Image(event)"></textarea>
+        <img src="" alt="image Missing" id="img2">
+    </body>
+</html>
